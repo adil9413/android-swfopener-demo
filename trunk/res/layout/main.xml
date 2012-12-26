@@ -4,10 +4,16 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
+    <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+            android:text="Play Swf List"
+            android:id="@+id/button1"
             />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Play One Swf File"
+            android:id="@+id/button2"/>
 </LinearLayout>
 
